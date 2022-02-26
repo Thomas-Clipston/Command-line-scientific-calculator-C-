@@ -1,0 +1,114 @@
+
+intalize main function{
+
+intailize num1,num2 and sum,sighn,sighn2,operation,value
+inatilize array "varibles"
+output ask user the type of operations they want B,U,A,V,X
+input the user inputs one of the following varibles above and saving it to sighn
+
+do {
+if sighn == B{
+output asking for the first number they wish to use in there operation
+while num1 is not  digit
+input the user can input there first number and saving it to num1
+
+
+ouput asking for the type of operation they want, listing the binary operations
+while sighn != one of the bunary operations 
+input for the user to write the operation they want and set it to operation
+
+output asking for the second  number they wish to use in there operation
+while num2 is not  digit
+input the user can input there second number and saving it to num2
+
+check what operation the user entered and then apply it to the varibles num1 and num2, the resulting calculation will be saved to sum
+while sum is not greater then +-limit
+output sum
+}
+if sighn == U{
+output asking for the first number they wish to use in there operation
+while num1 is not  digit
+input the user can input there first number and saving it to num1
+
+
+ouput asking for the type of operation they want, listing the Unary operations
+while sighn != one of the Unary operations 
+input for the user to write the operation they want and set it to operation
+
+while the user entered a negitive number and unary operation that cannot use negitives(ex. log(-1))
+output asking user for a positive number and saving it to num1
+
+check what operation the user entered and then apply it to the varible num1, the resulting calculation will be saved to sum
+while sum is not greater then +-limit
+output sum
+}
+if sighn == V{
+while the user has not entered a letter from a to e
+output asking the user for a varible from a to e
+input for the user to declare there varible
+
+while the user has not entered a number
+output asking the user for the number they want to assighn to there varible
+input for the user to write the number they want to assighn
+
+If statement checking what letter the user has written and then assighning the value of the letter to a element of the array "varibles"
+output what the name of varible and the number that was assighned to it
+
+output ask user the type of operation they want B,U,A,V,X
+input the user inputs one of the following varibles above
+}
+
+
+
+
+if sighn == A{
+while(sighn2 != X){
+output asking the user for the type operations they want to use, B,U,X
+
+if sighn2 == B{
+output asking for the first number they wish to use in there operation
+while num1 is not one the assighned varibles or a number 
+input the user can input there first number or varible and saving it to num1
+
+
+ouput asking for the type of operation they want, listing the binary operations
+while sighn != one of the bunary operations 
+input for the user to write the operation they want and set it to operation
+
+output asking for the second  number they wish to use in there operation
+while num2 is not one the assighned varibles or a number 
+input the user can input there second number and saving it to num2
+
+check what operation the user entered and then apply it to the varibles num1 and num2, the resulting calculation will be saved to sum
+while sum is not greater then +-limit
+output sum
+}
+if sighn2 == U{
+output asking for the first number they wish to use in there operation
+while num1 is not one the assighned varibles or a number 
+input the user can input there first number and saving it to num1
+
+
+ouput asking for the type of operation they want, listing the Unary operations
+while sighn != one of the Unary operations 
+input for the user to write the operation they want and set it to operation
+
+while the user entered a negitive number and unary operation that cannot use negitives(ex. log(-1))
+output asking user for a positive number and saving it to num1
+
+check what operation the user entered and then apply it to the varible num1, the resulting calculation will be saved to sum
+while sum is not greater then +-limit
+output sum
+}
+}
+}
+sighn2 = void so the A loop can be utilized as many times as the  user wishes
+
+
+output ask user the type of operations they want B,U,A,V,X
+input the user inputs one of the following varibles above and saving it to sighn
+//note this is just repeated at the end so when the program loops through it is asked each time
+}while sighn != x
+
+
+}
